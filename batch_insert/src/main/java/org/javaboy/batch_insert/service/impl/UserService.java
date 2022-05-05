@@ -1,4 +1,4 @@
-package org.javaboy.batch_insert.service;
+package org.javaboy.batch_insert.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.ibatis.session.ExecutorType;
@@ -6,6 +6,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.javaboy.batch_insert.mapper.UserMapper;
 import org.javaboy.batch_insert.model.User;
+import org.javaboy.batch_insert.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
